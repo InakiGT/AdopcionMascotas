@@ -1,0 +1,7 @@
+/linux
+/obligatorio
+/obligatorio2
+docker-compose.yml
+*.pdf
+*.zip
+tarea3.sh
